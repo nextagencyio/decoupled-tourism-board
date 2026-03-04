@@ -1,0 +1,225 @@
+{
+  "data": {
+    "nodeAttractions": {
+      "__typename": "NodeAttractionConnection",
+      "nodes": [
+        {
+          "__typename": "NodeAttraction",
+          "id": "attraction-heritage-museum",
+          "title": "Cedar Valley Heritage Museum",
+          "path": "/attractions/cedar-valley-heritage-museum",
+          "body": {
+            "processed": "<p>The Cedar Valley Heritage Museum tells the story of the region from its earliest indigenous inhabitants through the pioneer era and into the modern day. Housed in a beautifully restored 1890s railroad depot, the museum features interactive exhibits, a research library, and a collection of over 10,000 artifacts.</p><h2>Exhibits</h2><ul><li>Indigenous Peoples Gallery - artifacts spanning 12,000 years</li><li>Railroad Heritage Hall - restored locomotives and depot artifacts</li><li>Pioneer Life Experience - interactive homestead recreation</li><li>Rotating exhibitions from national collections</li></ul>",
+            "summary": "The Cedar Valley Heritage Museum tells the story of the region from its earliest indigenous inhabitants through the pioneer era and into the modern day. Housed in a beautifully restored 1890s railroad"
+          },
+          "attractionType": [
+            {
+              "id": "Museum",
+              "name": "Museum"
+            }
+          ],
+          "address": "200 Heritage Way, Cedar Valley, WI 54321",
+          "hours": "Tuesday - Saturday: 10:00 AM - 5:00 PM, Sunday: 12:00 PM - 4:00 PM",
+          "admission": "$12 Adults, $8 Seniors, $5 Children (6-17), Free under 6",
+          "highlights": [
+            "12,000-year history",
+            "Restored railroad depot",
+            "Interactive exhibits",
+            "Research library"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=800&q=80",
+            "alt": "Cedar Valley Heritage Museum in a restored railroad depot",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        },
+        {
+          "__typename": "NodeAttraction",
+          "id": "attraction-river-park",
+          "title": "Cedar River State Park",
+          "path": "/attractions/cedar-river-state-park",
+          "body": {
+            "processed": "<p>Cedar River State Park encompasses 2,500 acres of pristine woodlands, wetlands, and riverfront along the Cedar River. The park offers 35 miles of hiking and biking trails, scenic overlooks, swimming areas, and some of the best fishing in the state.</p><h2>Activities</h2><ul><li>Hiking on 35 miles of maintained trails</li><li>Kayaking and canoeing on the Cedar River</li><li>Fishing for bass, walleye, and trout</li><li>Bird watching with over 200 species recorded</li><li>Camping with 85 sites including electric hookups</li></ul>",
+            "summary": "Cedar River State Park encompasses 2,500 acres of pristine woodlands, wetlands, and riverfront along the Cedar River. The park offers 35 miles of hiking and biking trails, scenic overlooks, swimming a"
+          },
+          "attractionType": [
+            {
+              "id": "Park & Nature",
+              "name": "Park & Nature"
+            }
+          ],
+          "address": "1500 River Road, Cedar Valley, WI 54321",
+          "hours": "Daily: 6:00 AM - 10:00 PM",
+          "admission": "$5 vehicle day pass, Annual pass $35",
+          "highlights": [
+            "35 miles of trails",
+            "Cedar River access",
+            "200+ bird species",
+            "Camping available"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+            "alt": "Scenic trail through Cedar River State Park",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        },
+        {
+          "__typename": "NodeAttraction",
+          "id": "attraction-arts-center",
+          "title": "Valley Arts Center",
+          "path": "/attractions/valley-arts-center",
+          "body": {
+            "processed": "<p>The Valley Arts Center is Cedar Valley's premier cultural venue, featuring a 600-seat theater, three gallery spaces, and artist studios. The center hosts touring Broadway shows, local theater productions, concerts, and art exhibitions throughout the year.</p><h2>Venues</h2><ul><li>Main Stage - 600-seat theater for major performances</li><li>Studio Theater - intimate 150-seat black box space</li><li>Grand Gallery - rotating fine art exhibitions</li><li>Community Gallery - showcasing local artists</li><li>Sculpture Garden - outdoor art installation space</li></ul>",
+            "summary": "The Valley Arts Center is Cedar Valley's premier cultural venue, featuring a 600-seat theater, three gallery spaces, and artist studios. The center hosts touring Broadway shows, local theater producti"
+          },
+          "attractionType": [
+            {
+              "id": "Arts & Culture",
+              "name": "Arts & Culture"
+            }
+          ],
+          "address": "450 Arts Boulevard, Cedar Valley, WI 54321",
+          "hours": "Monday - Saturday: 10:00 AM - 8:00 PM, Sunday: 12:00 PM - 6:00 PM",
+          "admission": "Gallery: Free, Performances: $15-$65",
+          "highlights": [
+            "Broadway touring shows",
+            "Local theater",
+            "Art galleries",
+            "Sculpture garden"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&q=80",
+            "alt": "Interior of the Valley Arts Center theater",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        },
+        {
+          "__typename": "NodeAttraction",
+          "id": "attraction-downtown",
+          "title": "Historic Downtown District",
+          "path": "/attractions/historic-downtown-district",
+          "body": {
+            "processed": "<p>Cedar Valley's Historic Downtown District is a charming collection of restored 19th-century buildings housing locally owned shops, restaurants, cafes, and galleries. The district is listed on the National Register of Historic Places and hosts a vibrant farmers market, First Friday art walks, and seasonal festivals.</p><h2>Highlights</h2><ul><li>Over 60 locally owned shops and boutiques</li><li>Award-winning restaurants and craft breweries</li><li>Saturday farmers market (May through October)</li><li>First Friday art walks with live music</li><li>Historic architecture walking tours available daily</li></ul>",
+            "summary": "Cedar Valley's Historic Downtown District is a charming collection of restored 19th-century buildings housing locally owned shops, restaurants, cafes, and galleries. The district is listed on the Nati"
+          },
+          "attractionType": [
+            {
+              "id": "Shopping",
+              "name": "Shopping"
+            },
+            {
+              "id": "Food & Drink",
+              "name": "Food & Drink"
+            },
+            {
+              "id": "Historic Site",
+              "name": "Historic Site"
+            }
+          ],
+          "address": "Main Street & Cedar Avenue, Cedar Valley, WI 54321",
+          "hours": "Varies by business, most open 10:00 AM - 6:00 PM",
+          "admission": "Free to explore",
+          "highlights": [
+            "60+ local shops",
+            "Award-winning dining",
+            "Historic architecture",
+            "Farmers market"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+            "alt": "Charming historic downtown street with local shops",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": false
+        }
+      ]
+    }
+  }
+}

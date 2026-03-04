@@ -1,0 +1,169 @@
+{
+  "data": {
+    "nodeItineraries": {
+      "__typename": "NodeItineraryConnection",
+      "nodes": [
+        {
+          "__typename": "NodeItinerary",
+          "id": "itinerary-weekend",
+          "title": "The Perfect Weekend Getaway",
+          "path": "/itineraries/perfect-weekend-getaway",
+          "body": {
+            "processed": "<p>Make the most of a two-day visit to Cedar Valley with this curated itinerary covering the best attractions, dining, and outdoor experiences our region has to offer.</p><h2>Day 1: History &amp; Culture</h2><p>Start your morning with breakfast at Maple Street Cafe, then explore the Cedar Valley Heritage Museum. Stroll through the Historic Downtown District for lunch and shopping. In the afternoon, visit the Valley Arts Center galleries. End the day with dinner at The River House, our award-winning farm-to-table restaurant.</p><h2>Day 2: Outdoor Adventure</h2><p>Begin with an early morning hike at Cedar River State Park on the scenic Bluff Trail. Pack a picnic or grab lunch at the park lodge. Spend the afternoon kayaking on the Cedar River. Wrap up your trip with craft beers at Cedar Valley Brewing Company before heading home.</p>",
+            "summary": "Make the most of a two-day visit to Cedar Valley with this curated itinerary covering the best attractions, dining, and outdoor experiences our region has to offer.Day 1: History & CultureStart your m"
+          },
+          "duration": "2 Days",
+          "theme": [
+            {
+              "id": "Romantic Getaway",
+              "name": "Romantic Getaway"
+            }
+          ],
+          "stops": [
+            "Maple Street Cafe",
+            "Heritage Museum",
+            "Historic Downtown",
+            "Valley Arts Center",
+            "The River House",
+            "Cedar River State Park",
+            "Cedar Valley Brewing"
+          ],
+          "bestFor": "Couples and solo travelers",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+            "alt": "Scenic river view with rolling hills in the background",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeItinerary",
+          "id": "itinerary-family",
+          "title": "Three Days of Family Fun",
+          "path": "/itineraries/family-fun-three-days",
+          "body": {
+            "processed": "<p>Cedar Valley is a fantastic destination for families. This three-day itinerary is packed with activities that kids and adults will love equally.</p><h2>Day 1: Explore &amp; Discover</h2><p>Visit the Heritage Museum's interactive Pioneer Life Experience, where kids can try their hand at old-fashioned crafts. Lunch at Rosie's Diner (famous kid's menu). Afternoon at Splash Valley Water Park.</p><h2>Day 2: Nature &amp; Animals</h2><p>Morning at the Cedar Valley Nature Center with live animal encounters. Bike the River Trail (flat, paved, perfect for families). Visit the Blueberry U-Pick Farm and ice cream at the farm stand.</p><h2>Day 3: Adventure &amp; Play</h2><p>Morning at Treetop Adventure Park for zip-lining and ropes course. Lunch at The Treehouse Restaurant (built around a 200-year-old oak). Afternoon at the downtown children's discovery museum.</p>",
+            "summary": "Cedar Valley is a fantastic destination for families. This three-day itinerary is packed with activities that kids and adults will love equally.Day 1: Explore & DiscoverVisit the Heritage Museum's int"
+          },
+          "duration": "3 Days",
+          "theme": [
+            {
+              "id": "Family Fun",
+              "name": "Family Fun"
+            }
+          ],
+          "stops": [
+            "Heritage Museum",
+            "Rosie's Diner",
+            "Splash Valley",
+            "Nature Center",
+            "River Trail",
+            "Blueberry Farm",
+            "Treetop Adventure Park"
+          ],
+          "bestFor": "Families with children ages 4-14",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80",
+            "alt": "Family enjoying outdoor activities in nature",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeItinerary",
+          "id": "itinerary-food",
+          "title": "Cedar Valley Culinary Trail",
+          "path": "/itineraries/culinary-trail",
+          "body": {
+            "processed": "<p>Follow the flavors of Cedar Valley on this food-focused itinerary that takes you from farm to table and everything in between.</p><h2>Morning</h2><p>Start at the Saturday Farmers Market for fresh pastries and locally roasted coffee. Visit Cedar Valley Creamery for a cheese-making tour and tasting.</p><h2>Midday</h2><p>Lunch at The Granary, a converted grain elevator serving creative Midwestern cuisine. Tour the Cedar Valley Brewing Company with a guided tasting flight.</p><h2>Afternoon</h2><p>Visit the Lavender Hills Farm for U-pick lavender and artisan lavender products. Stop at the Chocolate Shoppe for handmade truffles and bonbons.</p><h2>Evening</h2><p>Dinner at The River House for a multi-course tasting menu featuring ingredients sourced within 50 miles. End at the Valley Distillery for a nightcap of their award-winning small-batch bourbon.</p>",
+            "summary": "Follow the flavors of Cedar Valley on this food-focused itinerary that takes you from farm to table and everything in between.MorningStart at the Saturday Farmers Market for fresh pastries and locally"
+          },
+          "duration": "1 Day",
+          "theme": [
+            {
+              "id": "Food & Drink",
+              "name": "Food & Drink"
+            }
+          ],
+          "stops": [
+            "Farmers Market",
+            "Cedar Valley Creamery",
+            "The Granary",
+            "Cedar Valley Brewing",
+            "Lavender Hills Farm",
+            "Chocolate Shoppe",
+            "The River House",
+            "Valley Distillery"
+          ],
+          "bestFor": "Food enthusiasts and couples",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+            "alt": "Beautifully plated farm-to-table dish",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

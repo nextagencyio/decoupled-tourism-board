@@ -1,0 +1,843 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Visit Cedar Valley",
+          "path": "/homepage",
+          "heroTitle": "Discover Cedar Valley",
+          "heroSubtitle": "Where History Meets Natural Beauty",
+          "heroDescription": {
+            "processed": "<p>Nestled between rolling hills and the Cedar River, Cedar Valley offers a perfect blend of outdoor adventure, rich history, world-class dining, and vibrant arts and culture. Plan your unforgettable visit today.</p>",
+            "summary": "Nestled between rolling hills and the Cedar River, Cedar Valley offers a perfect blend of outdoor adventure, rich history, world-class dining, and vibrant arts and culture. Plan your unforgettable vis"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-visitors",
+              "title": "",
+              "number": "3.2M",
+              "label": "Annual Visitors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-attractions",
+              "title": "",
+              "number": "150+",
+              "label": "Attractions"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-events",
+              "title": "",
+              "number": "200+",
+              "label": "Annual Events"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-trails",
+              "title": "",
+              "number": "75",
+              "label": "Miles of Trails"
+            }
+          ],
+          "featuredItemsTitle": "Top Attractions",
+          "ctaTitle": "Plan Your Visit",
+          "ctaDescription": {
+            "processed": "<p>Whether you are planning a weekend getaway or a week-long vacation, Cedar Valley has something for everyone. Request a free visitors guide or chat with our travel planning team.</p>",
+            "summary": "Whether you are planning a weekend getaway or a week-long vacation, Cedar Valley has something for everyone. Request a free visitors guide or chat with our travel planning team."
+          },
+          "ctaPrimary": "Request Visitors Guide",
+          "ctaSecondary": "View Itineraries"
+        }
+      }
+    }
+  },
+  "/attractions/cedar-valley-heritage-museum": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAttraction",
+          "id": "attraction-heritage-museum",
+          "title": "Cedar Valley Heritage Museum",
+          "path": "/attractions/cedar-valley-heritage-museum",
+          "body": {
+            "processed": "<p>The Cedar Valley Heritage Museum tells the story of the region from its earliest indigenous inhabitants through the pioneer era and into the modern day. Housed in a beautifully restored 1890s railroad depot, the museum features interactive exhibits, a research library, and a collection of over 10,000 artifacts.</p><h2>Exhibits</h2><ul><li>Indigenous Peoples Gallery - artifacts spanning 12,000 years</li><li>Railroad Heritage Hall - restored locomotives and depot artifacts</li><li>Pioneer Life Experience - interactive homestead recreation</li><li>Rotating exhibitions from national collections</li></ul>",
+            "summary": "The Cedar Valley Heritage Museum tells the story of the region from its earliest indigenous inhabitants through the pioneer era and into the modern day. Housed in a beautifully restored 1890s railroad"
+          },
+          "attractionType": [
+            {
+              "id": "Museum",
+              "name": "Museum"
+            }
+          ],
+          "address": "200 Heritage Way, Cedar Valley, WI 54321",
+          "hours": "Tuesday - Saturday: 10:00 AM - 5:00 PM, Sunday: 12:00 PM - 4:00 PM",
+          "admission": "$12 Adults, $8 Seniors, $5 Children (6-17), Free under 6",
+          "highlights": [
+            "12,000-year history",
+            "Restored railroad depot",
+            "Interactive exhibits",
+            "Research library"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=800&q=80",
+            "alt": "Cedar Valley Heritage Museum in a restored railroad depot",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        }
+      }
+    }
+  },
+  "/attractions/cedar-river-state-park": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAttraction",
+          "id": "attraction-river-park",
+          "title": "Cedar River State Park",
+          "path": "/attractions/cedar-river-state-park",
+          "body": {
+            "processed": "<p>Cedar River State Park encompasses 2,500 acres of pristine woodlands, wetlands, and riverfront along the Cedar River. The park offers 35 miles of hiking and biking trails, scenic overlooks, swimming areas, and some of the best fishing in the state.</p><h2>Activities</h2><ul><li>Hiking on 35 miles of maintained trails</li><li>Kayaking and canoeing on the Cedar River</li><li>Fishing for bass, walleye, and trout</li><li>Bird watching with over 200 species recorded</li><li>Camping with 85 sites including electric hookups</li></ul>",
+            "summary": "Cedar River State Park encompasses 2,500 acres of pristine woodlands, wetlands, and riverfront along the Cedar River. The park offers 35 miles of hiking and biking trails, scenic overlooks, swimming a"
+          },
+          "attractionType": [
+            {
+              "id": "Park & Nature",
+              "name": "Park & Nature"
+            }
+          ],
+          "address": "1500 River Road, Cedar Valley, WI 54321",
+          "hours": "Daily: 6:00 AM - 10:00 PM",
+          "admission": "$5 vehicle day pass, Annual pass $35",
+          "highlights": [
+            "35 miles of trails",
+            "Cedar River access",
+            "200+ bird species",
+            "Camping available"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+            "alt": "Scenic trail through Cedar River State Park",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        }
+      }
+    }
+  },
+  "/attractions/valley-arts-center": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAttraction",
+          "id": "attraction-arts-center",
+          "title": "Valley Arts Center",
+          "path": "/attractions/valley-arts-center",
+          "body": {
+            "processed": "<p>The Valley Arts Center is Cedar Valley's premier cultural venue, featuring a 600-seat theater, three gallery spaces, and artist studios. The center hosts touring Broadway shows, local theater productions, concerts, and art exhibitions throughout the year.</p><h2>Venues</h2><ul><li>Main Stage - 600-seat theater for major performances</li><li>Studio Theater - intimate 150-seat black box space</li><li>Grand Gallery - rotating fine art exhibitions</li><li>Community Gallery - showcasing local artists</li><li>Sculpture Garden - outdoor art installation space</li></ul>",
+            "summary": "The Valley Arts Center is Cedar Valley's premier cultural venue, featuring a 600-seat theater, three gallery spaces, and artist studios. The center hosts touring Broadway shows, local theater producti"
+          },
+          "attractionType": [
+            {
+              "id": "Arts & Culture",
+              "name": "Arts & Culture"
+            }
+          ],
+          "address": "450 Arts Boulevard, Cedar Valley, WI 54321",
+          "hours": "Monday - Saturday: 10:00 AM - 8:00 PM, Sunday: 12:00 PM - 6:00 PM",
+          "admission": "Gallery: Free, Performances: $15-$65",
+          "highlights": [
+            "Broadway touring shows",
+            "Local theater",
+            "Art galleries",
+            "Sculpture garden"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&q=80",
+            "alt": "Interior of the Valley Arts Center theater",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        }
+      }
+    }
+  },
+  "/attractions/historic-downtown-district": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAttraction",
+          "id": "attraction-downtown",
+          "title": "Historic Downtown District",
+          "path": "/attractions/historic-downtown-district",
+          "body": {
+            "processed": "<p>Cedar Valley's Historic Downtown District is a charming collection of restored 19th-century buildings housing locally owned shops, restaurants, cafes, and galleries. The district is listed on the National Register of Historic Places and hosts a vibrant farmers market, First Friday art walks, and seasonal festivals.</p><h2>Highlights</h2><ul><li>Over 60 locally owned shops and boutiques</li><li>Award-winning restaurants and craft breweries</li><li>Saturday farmers market (May through October)</li><li>First Friday art walks with live music</li><li>Historic architecture walking tours available daily</li></ul>",
+            "summary": "Cedar Valley's Historic Downtown District is a charming collection of restored 19th-century buildings housing locally owned shops, restaurants, cafes, and galleries. The district is listed on the Nati"
+          },
+          "attractionType": [
+            {
+              "id": "Shopping",
+              "name": "Shopping"
+            },
+            {
+              "id": "Food & Drink",
+              "name": "Food & Drink"
+            },
+            {
+              "id": "Historic Site",
+              "name": "Historic Site"
+            }
+          ],
+          "address": "Main Street & Cedar Avenue, Cedar Valley, WI 54321",
+          "hours": "Varies by business, most open 10:00 AM - 6:00 PM",
+          "admission": "Free to explore",
+          "highlights": [
+            "60+ local shops",
+            "Award-winning dining",
+            "Historic architecture",
+            "Farmers market"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+            "alt": "Charming historic downtown street with local shops",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": false
+        }
+      }
+    }
+  },
+  "/events/cedar-valley-jazz-festival": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-jazz-festival",
+          "title": "Cedar Valley Jazz Festival",
+          "path": "/events/cedar-valley-jazz-festival",
+          "body": {
+            "processed": "<p>Now in its 15th year, the Cedar Valley Jazz Festival brings world-class jazz musicians to our beautiful riverfront amphitheater for three days of incredible music. The festival features main stage performances, intimate jam sessions, workshops, and a jazz brunch.</p><h2>Featured Artists</h2><ul><li>Marcus Roberts Trio</li><li>Tia Fuller Quartet</li><li>Cedar Valley Community Jazz Orchestra</li><li>Student showcase from area music programs</li></ul><p>Food and beverage vendors from local restaurants will be on-site. VIP packages include reserved seating and backstage meet-and-greet opportunities.</p>",
+            "summary": "Now in its 15th year, the Cedar Valley Jazz Festival brings world-class jazz musicians to our beautiful riverfront amphitheater for three days of incredible music. The festival features main stage per"
+          },
+          "eventDate": {
+            "timestamp": 1784322000
+          },
+          "endDate": {
+            "timestamp": 1784516400
+          },
+          "venue": "Riverfront Amphitheater, 300 Riverside Drive",
+          "eventCategory": [
+            {
+              "id": "Concert",
+              "name": "Concert"
+            }
+          ],
+          "admission": "General: $35/day or $85/weekend, VIP: $150/weekend",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80",
+            "alt": "Jazz musicians performing on stage at an outdoor festival",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/autumn-harvest-festival": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-harvest-festival",
+          "title": "Autumn Harvest Festival",
+          "path": "/events/autumn-harvest-festival",
+          "body": {
+            "processed": "<p>Celebrate the beauty of fall in Cedar Valley at our annual Autumn Harvest Festival. This family-friendly event features hay rides, a corn maze, pumpkin patch, apple cider pressing, live music, and a pie-baking contest with local chefs.</p><h2>Activities</h2><ul><li>5-acre corn maze with multiple difficulty levels</li><li>Pumpkin patch and decorating station</li><li>Horse-drawn hay rides through scenic farmland</li><li>Apple cider pressing demonstrations</li><li>Live bluegrass and folk music all day</li><li>Local food vendors and craft beer garden</li></ul>",
+            "summary": "Celebrate the beauty of fall in Cedar Valley at our annual Autumn Harvest Festival. This family-friendly event features hay rides, a corn maze, pumpkin patch, apple cider pressing, live music, and a p"
+          },
+          "eventDate": {
+            "timestamp": 1791644400
+          },
+          "endDate": {
+            "timestamp": 1791756000
+          },
+          "venue": "Meadowbrook Farm, 5500 County Road K",
+          "eventCategory": [
+            {
+              "id": "Festival",
+              "name": "Festival"
+            },
+            {
+              "id": "Family",
+              "name": "Family"
+            }
+          ],
+          "admission": "$10 Adults, $5 Children (3-12), Free under 3",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+            "alt": "Autumn harvest scene with pumpkins and fall foliage",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/summer-gallery-walk": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-gallery-walk",
+          "title": "Summer First Friday Gallery Walk",
+          "path": "/events/summer-gallery-walk",
+          "body": {
+            "processed": "<p>Join us for a special summer edition of Cedar Valley's beloved First Friday Gallery Walk. Stroll through downtown galleries and pop-up art installations while enjoying live music, street performers, and complimentary refreshments from local businesses.</p><h2>Participating Venues</h2><ul><li>Valley Arts Center - Summer Sculpture Exhibition</li><li>Cedar Gallery - Local Landscape Photography</li><li>Artisan Alley Studios - Open studio night</li><li>Pop-up installations on Main Street</li></ul>",
+            "summary": "Join us for a special summer edition of Cedar Valley's beloved First Friday Gallery Walk. Stroll through downtown galleries and pop-up art installations while enjoying live music, street performers, a"
+          },
+          "eventDate": {
+            "timestamp": 1786140000
+          },
+          "endDate": {
+            "timestamp": 1786154400
+          },
+          "venue": "Historic Downtown District, Main Street",
+          "eventCategory": [
+            {
+              "id": "Art Exhibition",
+              "name": "Art Exhibition"
+            }
+          ],
+          "admission": "Free",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?w=800&q=80",
+            "alt": "Art gallery interior with visitors viewing paintings",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/itineraries/perfect-weekend-getaway": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeItinerary",
+          "id": "itinerary-weekend",
+          "title": "The Perfect Weekend Getaway",
+          "path": "/itineraries/perfect-weekend-getaway",
+          "body": {
+            "processed": "<p>Make the most of a two-day visit to Cedar Valley with this curated itinerary covering the best attractions, dining, and outdoor experiences our region has to offer.</p><h2>Day 1: History &amp; Culture</h2><p>Start your morning with breakfast at Maple Street Cafe, then explore the Cedar Valley Heritage Museum. Stroll through the Historic Downtown District for lunch and shopping. In the afternoon, visit the Valley Arts Center galleries. End the day with dinner at The River House, our award-winning farm-to-table restaurant.</p><h2>Day 2: Outdoor Adventure</h2><p>Begin with an early morning hike at Cedar River State Park on the scenic Bluff Trail. Pack a picnic or grab lunch at the park lodge. Spend the afternoon kayaking on the Cedar River. Wrap up your trip with craft beers at Cedar Valley Brewing Company before heading home.</p>",
+            "summary": "Make the most of a two-day visit to Cedar Valley with this curated itinerary covering the best attractions, dining, and outdoor experiences our region has to offer.Day 1: History & CultureStart your m"
+          },
+          "duration": "2 Days",
+          "theme": [
+            {
+              "id": "Romantic Getaway",
+              "name": "Romantic Getaway"
+            }
+          ],
+          "stops": [
+            "Maple Street Cafe",
+            "Heritage Museum",
+            "Historic Downtown",
+            "Valley Arts Center",
+            "The River House",
+            "Cedar River State Park",
+            "Cedar Valley Brewing"
+          ],
+          "bestFor": "Couples and solo travelers",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+            "alt": "Scenic river view with rolling hills in the background",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/itineraries/family-fun-three-days": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeItinerary",
+          "id": "itinerary-family",
+          "title": "Three Days of Family Fun",
+          "path": "/itineraries/family-fun-three-days",
+          "body": {
+            "processed": "<p>Cedar Valley is a fantastic destination for families. This three-day itinerary is packed with activities that kids and adults will love equally.</p><h2>Day 1: Explore &amp; Discover</h2><p>Visit the Heritage Museum's interactive Pioneer Life Experience, where kids can try their hand at old-fashioned crafts. Lunch at Rosie's Diner (famous kid's menu). Afternoon at Splash Valley Water Park.</p><h2>Day 2: Nature &amp; Animals</h2><p>Morning at the Cedar Valley Nature Center with live animal encounters. Bike the River Trail (flat, paved, perfect for families). Visit the Blueberry U-Pick Farm and ice cream at the farm stand.</p><h2>Day 3: Adventure &amp; Play</h2><p>Morning at Treetop Adventure Park for zip-lining and ropes course. Lunch at The Treehouse Restaurant (built around a 200-year-old oak). Afternoon at the downtown children's discovery museum.</p>",
+            "summary": "Cedar Valley is a fantastic destination for families. This three-day itinerary is packed with activities that kids and adults will love equally.Day 1: Explore & DiscoverVisit the Heritage Museum's int"
+          },
+          "duration": "3 Days",
+          "theme": [
+            {
+              "id": "Family Fun",
+              "name": "Family Fun"
+            }
+          ],
+          "stops": [
+            "Heritage Museum",
+            "Rosie's Diner",
+            "Splash Valley",
+            "Nature Center",
+            "River Trail",
+            "Blueberry Farm",
+            "Treetop Adventure Park"
+          ],
+          "bestFor": "Families with children ages 4-14",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80",
+            "alt": "Family enjoying outdoor activities in nature",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/itineraries/culinary-trail": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeItinerary",
+          "id": "itinerary-food",
+          "title": "Cedar Valley Culinary Trail",
+          "path": "/itineraries/culinary-trail",
+          "body": {
+            "processed": "<p>Follow the flavors of Cedar Valley on this food-focused itinerary that takes you from farm to table and everything in between.</p><h2>Morning</h2><p>Start at the Saturday Farmers Market for fresh pastries and locally roasted coffee. Visit Cedar Valley Creamery for a cheese-making tour and tasting.</p><h2>Midday</h2><p>Lunch at The Granary, a converted grain elevator serving creative Midwestern cuisine. Tour the Cedar Valley Brewing Company with a guided tasting flight.</p><h2>Afternoon</h2><p>Visit the Lavender Hills Farm for U-pick lavender and artisan lavender products. Stop at the Chocolate Shoppe for handmade truffles and bonbons.</p><h2>Evening</h2><p>Dinner at The River House for a multi-course tasting menu featuring ingredients sourced within 50 miles. End at the Valley Distillery for a nightcap of their award-winning small-batch bourbon.</p>",
+            "summary": "Follow the flavors of Cedar Valley on this food-focused itinerary that takes you from farm to table and everything in between.MorningStart at the Saturday Farmers Market for fresh pastries and locally"
+          },
+          "duration": "1 Day",
+          "theme": [
+            {
+              "id": "Food & Drink",
+              "name": "Food & Drink"
+            }
+          ],
+          "stops": [
+            "Farmers Market",
+            "Cedar Valley Creamery",
+            "The Granary",
+            "Cedar Valley Brewing",
+            "Lavender Hills Farm",
+            "Chocolate Shoppe",
+            "The River House",
+            "Valley Distillery"
+          ],
+          "bestFor": "Food enthusiasts and couples",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+            "alt": "Beautifully plated farm-to-table dish",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/river-trail-expansion": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-trail-expansion",
+          "title": "Cedar River Trail Extension Opens This Spring",
+          "path": "/news/river-trail-expansion",
+          "body": {
+            "processed": "<p>Cedar Valley is thrilled to announce the completion of a 12-mile extension to the popular Cedar River Trail, connecting downtown Cedar Valley to the neighboring town of Pine Bluff. The $4.2 million project adds paved multi-use pathways, three new trailhead parking areas, and two scenic overlook platforms.</p><h2>What's New</h2><ul><li>12 miles of new paved trail</li><li>3 new trailhead parking areas with restrooms</li><li>2 scenic overlook platforms with interpretive signs</li><li>Connection to Pine Bluff's trail network</li></ul><p>The extension officially opens on April 15, 2026, with a ribbon-cutting ceremony at the new Cedar Bluffs Trailhead at 10:00 AM.</p>",
+            "summary": "Cedar Valley is thrilled to announce the completion of a 12-mile extension to the popular Cedar River Trail, connecting downtown Cedar Valley to the neighboring town of Pine Bluff. The $4.2 million pr"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=800&q=80",
+            "alt": "Scenic paved trail along a river through forest",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "newsCategory": [
+            {
+              "id": "Destination Update",
+              "name": "Destination Update"
+            }
+          ],
+          "featured": true
+        }
+      }
+    }
+  },
+  "/news/new-boutique-hotel-downtown": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-boutique-hotel",
+          "title": "New Boutique Hotel Opening in Historic Downtown",
+          "path": "/news/new-boutique-hotel-downtown",
+          "body": {
+            "processed": "<p>The Cedar House Hotel, a 42-room boutique hotel, will open this summer in a beautifully restored 1920s bank building on Main Street. The hotel features locally inspired design, a rooftop bar with panoramic valley views, and a ground-floor restaurant helmed by acclaimed chef Maria Santos.</p><h2>Hotel Highlights</h2><ul><li>42 rooms with locally crafted furnishings</li><li>Rooftop bar with 360-degree valley views</li><li>Ground-floor farm-to-table restaurant</li><li>Meeting space for events and weddings</li><li>Walking distance to all downtown attractions</li></ul>",
+            "summary": "The Cedar House Hotel, a 42-room boutique hotel, will open this summer in a beautifully restored 1920s bank building on Main Street. The hotel features locally inspired design, a rooftop bar with pano"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+            "alt": "Elegant boutique hotel lobby with modern design",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "newsCategory": [
+            {
+              "id": "Press Release",
+              "name": "Press Release"
+            }
+          ],
+          "featured": true
+        }
+      }
+    }
+  },
+  "/news/summer-events-calendar-released": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-summer-events",
+          "title": "2026 Summer Events Calendar Released",
+          "path": "/news/summer-events-calendar-released",
+          "body": {
+            "processed": "<p>The Cedar Valley Convention and Visitors Bureau has released the official 2026 summer events calendar, featuring over 50 events from June through September. Highlights include the return of the Cedar Valley Jazz Festival, the inaugural Farm-to-Fork Dinner Series, and expanded Saturday programming at the farmers market.</p><h2>Key Dates</h2><ul><li>June 6: Summer Season Kickoff at Riverfront Park</li><li>July 17-19: Cedar Valley Jazz Festival</li><li>August 1-2: Cedar Valley Food &amp; Wine Weekend</li><li>August 7: Summer First Friday Gallery Walk</li><li>September 12: End-of-Summer River Float Celebration</li></ul><p>A complete calendar is available at visitor centers throughout Cedar Valley and on our website.</p>",
+            "summary": "The Cedar Valley Convention and Visitors Bureau has released the official 2026 summer events calendar, featuring over 50 events from June through September. Highlights include the return of the Cedar "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80",
+            "alt": "Crowd enjoying an outdoor summer festival",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "newsCategory": [
+            {
+              "id": "Event Announcement",
+              "name": "Event Announcement"
+            }
+          ],
+          "featured": false
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "about-page",
+          "title": "About Visit Cedar Valley",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Visit Cedar Valley is the official convention and visitors bureau for Cedar Valley and the surrounding region. Our mission is to promote Cedar Valley as a premier travel destination, driving economic growth through tourism while preserving the natural beauty and cultural heritage that make our community special.</p><h2>What We Do</h2><p>We provide visitors with comprehensive information about attractions, events, dining, lodging, and outdoor recreation. We also work with local businesses, event organizers, and hospitality partners to ensure every visitor has an exceptional experience.</p><h2>Visitor Centers</h2><p>Stop by one of our two visitor centers for maps, brochures, and personalized recommendations from our knowledgeable staff.</p><ul><li>Downtown Visitor Center: 100 Main Street, open daily 9 AM - 5 PM</li><li>Highway Welcome Center: I-90 Exit 42, open daily 8 AM - 6 PM</li></ul>",
+            "summary": "Visit Cedar Valley is the official convention and visitors bureau for Cedar Valley and the surrounding region. Our mission is to promote Cedar Valley as a premier travel destination, driving economic "
+          }
+        }
+      }
+    }
+  },
+  "/getting-here": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "getting-here-page",
+          "title": "Getting Here & Getting Around",
+          "path": "/getting-here",
+          "body": {
+            "processed": "<p>Cedar Valley is conveniently located at the intersection of I-90 and Highway 18, making it easily accessible by car from major cities in the region.</p><h2>By Car</h2><p>From Madison: 90 minutes west on I-90<br>From Milwaukee: 2.5 hours west on I-94 to I-90<br>From Chicago: 3 hours northwest on I-90<br>From Minneapolis: 3.5 hours southeast on I-90</p><h2>By Air</h2><p>The nearest commercial airport is La Crosse Regional Airport (LSE), approximately 45 minutes away. Larger airports in Madison (MSN) and Minneapolis (MSP) offer more flight options.</p><h2>Getting Around</h2><p>Downtown Cedar Valley is walkable and bikeable. The Cedar Valley Transit system operates bus routes connecting major attractions. Bike rentals are available at multiple locations throughout downtown and at the state park entrance.</p>",
+            "summary": "Cedar Valley is conveniently located at the intersection of I-90 and Highway 18, making it easily accessible by car from major cities in the region.By CarFrom Madison: 90 minutes west on I-90From Milw"
+          }
+        }
+      }
+    }
+  }
+}

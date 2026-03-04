@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Visit Cedar Valley",
+          "path": "/homepage",
+          "heroTitle": "Discover Cedar Valley",
+          "heroSubtitle": "Where History Meets Natural Beauty",
+          "heroDescription": {
+            "processed": "<p>Nestled between rolling hills and the Cedar River, Cedar Valley offers a perfect blend of outdoor adventure, rich history, world-class dining, and vibrant arts and culture. Plan your unforgettable visit today.</p>",
+            "summary": "Nestled between rolling hills and the Cedar River, Cedar Valley offers a perfect blend of outdoor adventure, rich history, world-class dining, and vibrant arts and culture. Plan your unforgettable vis"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-visitors",
+              "title": "",
+              "number": "3.2M",
+              "label": "Annual Visitors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-attractions",
+              "title": "",
+              "number": "150+",
+              "label": "Attractions"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-events",
+              "title": "",
+              "number": "200+",
+              "label": "Annual Events"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-trails",
+              "title": "",
+              "number": "75",
+              "label": "Miles of Trails"
+            }
+          ],
+          "featuredItemsTitle": "Top Attractions",
+          "ctaTitle": "Plan Your Visit",
+          "ctaDescription": {
+            "processed": "<p>Whether you are planning a weekend getaway or a week-long vacation, Cedar Valley has something for everyone. Request a free visitors guide or chat with our travel planning team.</p>",
+            "summary": "Whether you are planning a weekend getaway or a week-long vacation, Cedar Valley has something for everyone. Request a free visitors guide or chat with our travel planning team."
+          },
+          "ctaPrimary": "Request Visitors Guide",
+          "ctaSecondary": "View Itineraries"
+        }
+      ]
+    }
+  }
+}

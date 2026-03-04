@@ -1,0 +1,163 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-jazz-festival",
+          "title": "Cedar Valley Jazz Festival",
+          "path": "/events/cedar-valley-jazz-festival",
+          "body": {
+            "processed": "<p>Now in its 15th year, the Cedar Valley Jazz Festival brings world-class jazz musicians to our beautiful riverfront amphitheater for three days of incredible music. The festival features main stage performances, intimate jam sessions, workshops, and a jazz brunch.</p><h2>Featured Artists</h2><ul><li>Marcus Roberts Trio</li><li>Tia Fuller Quartet</li><li>Cedar Valley Community Jazz Orchestra</li><li>Student showcase from area music programs</li></ul><p>Food and beverage vendors from local restaurants will be on-site. VIP packages include reserved seating and backstage meet-and-greet opportunities.</p>",
+            "summary": "Now in its 15th year, the Cedar Valley Jazz Festival brings world-class jazz musicians to our beautiful riverfront amphitheater for three days of incredible music. The festival features main stage per"
+          },
+          "eventDate": {
+            "timestamp": 1784322000
+          },
+          "endDate": {
+            "timestamp": 1784516400
+          },
+          "venue": "Riverfront Amphitheater, 300 Riverside Drive",
+          "eventCategory": [
+            {
+              "id": "Concert",
+              "name": "Concert"
+            }
+          ],
+          "admission": "General: $35/day or $85/weekend, VIP: $150/weekend",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80",
+            "alt": "Jazz musicians performing on stage at an outdoor festival",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-harvest-festival",
+          "title": "Autumn Harvest Festival",
+          "path": "/events/autumn-harvest-festival",
+          "body": {
+            "processed": "<p>Celebrate the beauty of fall in Cedar Valley at our annual Autumn Harvest Festival. This family-friendly event features hay rides, a corn maze, pumpkin patch, apple cider pressing, live music, and a pie-baking contest with local chefs.</p><h2>Activities</h2><ul><li>5-acre corn maze with multiple difficulty levels</li><li>Pumpkin patch and decorating station</li><li>Horse-drawn hay rides through scenic farmland</li><li>Apple cider pressing demonstrations</li><li>Live bluegrass and folk music all day</li><li>Local food vendors and craft beer garden</li></ul>",
+            "summary": "Celebrate the beauty of fall in Cedar Valley at our annual Autumn Harvest Festival. This family-friendly event features hay rides, a corn maze, pumpkin patch, apple cider pressing, live music, and a p"
+          },
+          "eventDate": {
+            "timestamp": 1791644400
+          },
+          "endDate": {
+            "timestamp": 1791756000
+          },
+          "venue": "Meadowbrook Farm, 5500 County Road K",
+          "eventCategory": [
+            {
+              "id": "Festival",
+              "name": "Festival"
+            },
+            {
+              "id": "Family",
+              "name": "Family"
+            }
+          ],
+          "admission": "$10 Adults, $5 Children (3-12), Free under 3",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+            "alt": "Autumn harvest scene with pumpkins and fall foliage",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-gallery-walk",
+          "title": "Summer First Friday Gallery Walk",
+          "path": "/events/summer-gallery-walk",
+          "body": {
+            "processed": "<p>Join us for a special summer edition of Cedar Valley's beloved First Friday Gallery Walk. Stroll through downtown galleries and pop-up art installations while enjoying live music, street performers, and complimentary refreshments from local businesses.</p><h2>Participating Venues</h2><ul><li>Valley Arts Center - Summer Sculpture Exhibition</li><li>Cedar Gallery - Local Landscape Photography</li><li>Artisan Alley Studios - Open studio night</li><li>Pop-up installations on Main Street</li></ul>",
+            "summary": "Join us for a special summer edition of Cedar Valley's beloved First Friday Gallery Walk. Stroll through downtown galleries and pop-up art installations while enjoying live music, street performers, a"
+          },
+          "eventDate": {
+            "timestamp": 1786140000
+          },
+          "endDate": {
+            "timestamp": 1786154400
+          },
+          "venue": "Historic Downtown District, Main Street",
+          "eventCategory": [
+            {
+              "id": "Art Exhibition",
+              "name": "Art Exhibition"
+            }
+          ],
+          "admission": "Free",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?w=800&q=80",
+            "alt": "Art gallery interior with visitors viewing paintings",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

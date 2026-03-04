@@ -1,0 +1,138 @@
+{
+  "data": {
+    "nodeNews": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-trail-expansion",
+          "title": "Cedar River Trail Extension Opens This Spring",
+          "path": "/news/river-trail-expansion",
+          "body": {
+            "processed": "<p>Cedar Valley is thrilled to announce the completion of a 12-mile extension to the popular Cedar River Trail, connecting downtown Cedar Valley to the neighboring town of Pine Bluff. The $4.2 million project adds paved multi-use pathways, three new trailhead parking areas, and two scenic overlook platforms.</p><h2>What's New</h2><ul><li>12 miles of new paved trail</li><li>3 new trailhead parking areas with restrooms</li><li>2 scenic overlook platforms with interpretive signs</li><li>Connection to Pine Bluff's trail network</li></ul><p>The extension officially opens on April 15, 2026, with a ribbon-cutting ceremony at the new Cedar Bluffs Trailhead at 10:00 AM.</p>",
+            "summary": "Cedar Valley is thrilled to announce the completion of a 12-mile extension to the popular Cedar River Trail, connecting downtown Cedar Valley to the neighboring town of Pine Bluff. The $4.2 million pr"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=800&q=80",
+            "alt": "Scenic paved trail along a river through forest",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "newsCategory": [
+            {
+              "id": "Destination Update",
+              "name": "Destination Update"
+            }
+          ],
+          "featured": true
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-boutique-hotel",
+          "title": "New Boutique Hotel Opening in Historic Downtown",
+          "path": "/news/new-boutique-hotel-downtown",
+          "body": {
+            "processed": "<p>The Cedar House Hotel, a 42-room boutique hotel, will open this summer in a beautifully restored 1920s bank building on Main Street. The hotel features locally inspired design, a rooftop bar with panoramic valley views, and a ground-floor restaurant helmed by acclaimed chef Maria Santos.</p><h2>Hotel Highlights</h2><ul><li>42 rooms with locally crafted furnishings</li><li>Rooftop bar with 360-degree valley views</li><li>Ground-floor farm-to-table restaurant</li><li>Meeting space for events and weddings</li><li>Walking distance to all downtown attractions</li></ul>",
+            "summary": "The Cedar House Hotel, a 42-room boutique hotel, will open this summer in a beautifully restored 1920s bank building on Main Street. The hotel features locally inspired design, a rooftop bar with pano"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+            "alt": "Elegant boutique hotel lobby with modern design",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "newsCategory": [
+            {
+              "id": "Press Release",
+              "name": "Press Release"
+            }
+          ],
+          "featured": true
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-summer-events",
+          "title": "2026 Summer Events Calendar Released",
+          "path": "/news/summer-events-calendar-released",
+          "body": {
+            "processed": "<p>The Cedar Valley Convention and Visitors Bureau has released the official 2026 summer events calendar, featuring over 50 events from June through September. Highlights include the return of the Cedar Valley Jazz Festival, the inaugural Farm-to-Fork Dinner Series, and expanded Saturday programming at the farmers market.</p><h2>Key Dates</h2><ul><li>June 6: Summer Season Kickoff at Riverfront Park</li><li>July 17-19: Cedar Valley Jazz Festival</li><li>August 1-2: Cedar Valley Food &amp; Wine Weekend</li><li>August 7: Summer First Friday Gallery Walk</li><li>September 12: End-of-Summer River Float Celebration</li></ul><p>A complete calendar is available at visitor centers throughout Cedar Valley and on our website.</p>",
+            "summary": "The Cedar Valley Convention and Visitors Bureau has released the official 2026 summer events calendar, featuring over 50 events from June through September. Highlights include the return of the Cedar "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80",
+            "alt": "Crowd enjoying an outdoor summer festival",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "newsCategory": [
+            {
+              "id": "Event Announcement",
+              "name": "Event Announcement"
+            }
+          ],
+          "featured": false
+        }
+      ]
+    }
+  }
+}
