@@ -115,7 +115,7 @@ export default async function NewsDetailPage({ params }: PageProps) {
                 </dl>
                 <div className="mt-8">
                   <Link
-                    href="/contact"
+                    href="/events"
                     className="block w-full text-center px-6 py-3 bg-cyan-700 text-white rounded-lg font-bold hover:bg-cyan-600 transition-colors"
                   >
                     Contact Us

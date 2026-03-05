@@ -27,7 +27,7 @@ export default function CTASection({ homepageContent }: CTASectionProps) {
           <p className="text-primary-100 text-lg mb-10 max-w-2xl mx-auto">Connect with our team to get tailored support and clear next steps.</p>
         )}
         <div className="flex justify-center gap-4 flex-wrap">
-          <Link href="/contact" className="px-10 py-4 bg-white text-primary-900 rounded-full hover:bg-primary-50 transition-all duration-200 font-bold text-lg shadow-lg">
+          <Link href="/events" className="px-10 py-4 bg-white text-primary-900 rounded-full hover:bg-primary-50 transition-all duration-200 font-bold text-lg shadow-lg">
             {primaryLabel}
           </Link>
           <Link href="/about" className="px-10 py-4 border-2 border-white text-white rounded-full hover:bg-white/10 transition-all duration-200 font-bold text-lg">

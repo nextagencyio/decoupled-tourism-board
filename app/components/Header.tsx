@@ -68,7 +68,7 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center space-x-4">
-            <Link href="/contact" className="hidden sm:inline-flex items-center bg-primary-600 text-white px-5 py-2 rounded-full hover:bg-primary-700 transition-colors duration-200 font-semibold text-sm">
+            <Link href="/events" className="hidden sm:inline-flex items-center bg-primary-600 text-white px-5 py-2 rounded-full hover:bg-primary-700 transition-colors duration-200 font-semibold text-sm">
               Plan a Visit
             </Link>
             <button type="button" className="lg:hidden inline-flex items-center justify-center p-2 rounded-full text-gray-600 hover:text-primary-800 hover:bg-primary-50" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
