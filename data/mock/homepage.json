@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-visitors",
               "title": "",
-              "number": "3.2M",
+              "number": "3.2M", "value": "3.2M",
               "label": "Annual Visitors"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-attractions",
               "title": "",
-              "number": "150+",
+              "number": "150+", "value": "150+",
               "label": "Attractions"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-events",
               "title": "",
-              "number": "200+",
+              "number": "200+", "value": "200+",
               "label": "Annual Events"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-trails",
               "title": "",
-              "number": "75",
+              "number": "75", "value": "75",
               "label": "Miles of Trails"
             }
           ],
