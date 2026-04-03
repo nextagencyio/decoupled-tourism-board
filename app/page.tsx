@@ -1,4 +1,5 @@
 import { getClient } from '@/lib/drupal-client'
+import { GET_HOMEPAGE_DATA } from '@/lib/queries'
 import HomepageRenderer from './components/HomepageRenderer'
 import SetupGuide from './components/SetupGuide'
 import ContentSetupGuide from './components/ContentSetupGuide'
@@ -38,7 +39,14 @@ export default async function Home() {
   }
 
   const client = getClient()
-  const homepageContent = await client.getEntryByPath('/') as any
+
+  let homepageContent: any = null
+  try {
+    const data = await client.raw(GET_HOMEPAGE_DATA)
+    homepageContent = data?.nodeHomepages?.nodes?.[0] || null
+  } catch (error) {
+    console.error('Error fetching homepage:', error)
+  }
 
   if (!homepageContent) {
     const drupalBaseUrl = process.env.NEXT_PUBLIC_DRUPAL_BASE_URL

@@ -7,15 +7,21 @@ export const GET_HOMEPAGE_DATA = gql`
       nodes {
         id
         title
-      heroTitle
-      heroSubtitle
-      heroDescription { processed summary }
-      statsItems
-      featuredItemsTitle
-      ctaTitle
-      ctaDescription { processed summary }
-      ctaPrimary
-      ctaSecondary
+        heroTitle
+        heroSubtitle
+        heroDescription { processed }
+        statsItems {
+          ... on ParagraphStatItem {
+            id
+            number
+            label
+          }
+        }
+        featuredItemsTitle
+        ctaTitle
+        ctaDescription { processed }
+        ctaPrimary
+        ctaSecondary
       }
     }
   }
@@ -29,15 +35,15 @@ export const GET_ATTRACTIONS = gql`
         title
         path
         created { timestamp }
-        ... on NodeAttraction {
-          attractionType
-          address
-          hours
-          admission
-          highlights
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-          featured
+        address
+        hours
+        admission
+        highlights
+        attractionType {
+          ... on TermAttractionType { name }
         }
+        image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+        featured
       }
     }
   }
@@ -52,13 +58,15 @@ export const GET_ATTRACTION_BY_PATH = gql`
             id
             title
             path
-          attractionType
-          address
-          hours
-          admission
-          highlights
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-          featured
+            address
+            hours
+            admission
+            highlights
+            attractionType {
+              ... on TermAttractionType { name }
+            }
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            featured
           }
         }
       }
@@ -74,14 +82,14 @@ export const GET_EVENTS = gql`
         title
         path
         created { timestamp }
-        ... on NodeEvent {
-          eventDate { timestamp }
-          endDate { timestamp }
-          venue
-          eventCategory
-          admission
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+        eventDate { timestamp }
+        endDate { timestamp }
+        venue
+        eventCategory {
+          ... on TermEventCategory { name }
         }
+        admission
+        image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
       }
     }
   }
@@ -96,12 +104,14 @@ export const GET_EVENT_BY_PATH = gql`
             id
             title
             path
-          eventDate { timestamp }
-          endDate { timestamp }
-          venue
-          eventCategory
-          admission
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            eventDate { timestamp }
+            endDate { timestamp }
+            venue
+            eventCategory {
+              ... on TermEventCategory { name }
+            }
+            admission
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }
@@ -117,13 +127,13 @@ export const GET_ITINERARIES = gql`
         title
         path
         created { timestamp }
-        ... on NodeItinerary {
-          duration
-          theme
-          stops
-          bestFor
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+        duration
+        theme {
+          ... on TermItineraryTheme { name }
         }
+        stops
+        bestFor
+        image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
       }
     }
   }
@@ -138,11 +148,13 @@ export const GET_ITINERARY_BY_PATH = gql`
             id
             title
             path
-          duration
-          theme
-          stops
-          bestFor
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            duration
+            theme {
+              ... on TermItineraryTheme { name }
+            }
+            stops
+            bestFor
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }
@@ -152,17 +164,17 @@ export const GET_ITINERARY_BY_PATH = gql`
 
 export const GET_NEWS = gql`
   query GetNews($first: Int = 10) {
-    nodeNews(first: $first, sortKey: CREATED_AT) {
+    nodeNewsItems(first: $first, sortKey: CREATED_AT) {
       nodes {
         id
         title
         path
         created { timestamp }
-        ... on NodeNews {
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-          newsCategory
-          featured
+        image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+        newsCategory {
+          ... on TermNewsCategory { name }
         }
+        featured
       }
     }
   }
@@ -177,9 +189,11 @@ export const GET_NEWS_BY_PATH = gql`
             id
             title
             path
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-          newsCategory
-          featured
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            newsCategory {
+              ... on TermNewsCategory { name }
+            }
+            featured
           }
         }
       }
